@@ -22,3 +22,7 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+docker-golangweb
+golangweb-simple
+docker-build.log
