@@ -1,4 +1,4 @@
-# docker-golangweb-si
+# docker-golangweb-simple
 
 Simple golang web site using run on KUBERNETES or RANCHER and other docker management platforms.
 
