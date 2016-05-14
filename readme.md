@@ -2,6 +2,8 @@
 
 Simple golang web site using run on KUBERNETES or RANCHER and other docker management platforms.
 
+[![Build Status](https://travis-ci.org/dmportella/docker-golangweb-simple.svg?branch=master)](https://travis-ci.org/dmportella/docker-golangweb-simple)
+
 ## DOCKERHUB
 
 [![dockeri.co](http://dockeri.co/image/dmportella/golangweb-simple)](https://hub.docker.com/r/dmportella/golangweb-simple/)

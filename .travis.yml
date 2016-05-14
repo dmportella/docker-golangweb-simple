@@ -8,4 +8,7 @@ services:
 go:
   - tip
     
-script: bash build.sh
+script: 
+  - docker version
+  - go version
+  - bash build.sh
