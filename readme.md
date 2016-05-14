@@ -18,7 +18,7 @@ Web site should be available on binding `:8080`.
 
 ## Building
 
-The shell file `build.sh` will run npm install, install and run grunt and it will build and run the docker image.
+The shell file `build.sh` will run go build and it will build and run the docker image.
 
 > $ `./build.sh`
 
