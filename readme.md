@@ -20,11 +20,15 @@ Web site should be available on binding `:8080`.
 
 The shell file `build.sh` will run go build and it will build and run the docker image.
 
-> $ `./build.sh`
+> $ `./build.sh 0.0.0`
+
+Note that the above line will run the container elsewell, to avoid this you can set a ENV variable (this is for TRAVIS CI)
+
+> $ `TRAVIS=true ./build.sh 0.0.0`
 
 Builds docker image and tags it.
 
-> $ `./build-image.sh`
+> $ `./build-image.sh 0.0.0`
 
 * Installs godep and other setup things
 
